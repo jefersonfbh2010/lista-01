@@ -11,4 +11,3 @@ else
     Console.WriteLine("Entrada permitida somente com responsável.");
 }
 
-Console.WriteLine ("solicitar nota do aluno")
