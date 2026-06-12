@@ -1,13 +1,15 @@
-﻿Console.Write("Informe a idade do visitante: ");
-
+﻿Console.WriteLine("solicitar nota do estudante:");
 int variavelQueSalvaUmNumero = int.Parse(Console.ReadLine()!);
 
-if (variavelQueSalvaUmNumero >= 16)
+if (variavelQueSalvaUmNumero >= 7) 
 {
-    Console.WriteLine("Entrada liberada.");
+    Console.Write("aprovado");
 }
-else
+else if (variavelQueSalvaUmNumero >= 5 && variavelQueSalvaUmNumero <= 6) 
 {
-    Console.WriteLine("Entrada permitida somente com responsável.");
+    Console.Write("recuperação");
 }
-
+else if (variavelQueSalvaUmNumero < 5) 
+{
+    Console.Write("reprovado");
+}
